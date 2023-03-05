@@ -96,10 +96,15 @@
       </div>
     </div>
   </div>
-  <div class="absolute bottom-0 left-0 m-2">
-    <a href="https://github.com/merklejerk/eco-wallets">https://github.com/merklejerk/eco-wallets</a>
+  <div class="flex flex-row absolute bottom-0 left-0 px-2 py-1 w-screen">
+    <div class="text-left flex-auto">
+      <a href="https://github.com/merklejerk/eco-wallets">https://github.com/merklejerk/eco-wallets</a>
+    </div>
+    <div class="text-right flex-auto italic">
+      Make sure you're connected to goerli!
+    </div>
   </div>
-  </div>
+</div>
 </template>
 
 <script lang="ts">
