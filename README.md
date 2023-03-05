@@ -1,5 +1,7 @@
 # eco-wallets-demo
 
+This repo is configured to interact with [https://github.com/merklejerk/eco-wallets](https://github.com/merklejerk/eco-wallets) on Goerli.
+
 ## Build Setup
 
 ```bash
