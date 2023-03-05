@@ -49,12 +49,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    transpile: ['@ethersproject', 'ethers'],
   },
-
-  env: {
+  publicRuntimeConfig: {
     TENDERLY_USER: process.env.TENDERLY_USER,
     TENDERLY_PROJECT: process.env.TENDERLY_PROJECT,
     TENDERLY_ACCESS_KEY: process.env.TENDERLY_ACCESS_KEY,
+    NETWORK_ID: 5,
+    ENTRY_POINT: '0x82b035B4405Dd60b449b054894004FeE80566655',
   },
   vite: {
     plugins: [
