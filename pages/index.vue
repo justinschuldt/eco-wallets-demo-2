@@ -1,5 +1,6 @@
 <template>
   <div class="container flex flex-col justify-center min-h-screen mx-auto">
+    <div class="justify-self-center">
     <div class="flex flex-col justify-center gap-y-5">
       <div class="flex flex-row space-x-4">
         <span class="text-2xl">👛</span>
@@ -94,6 +95,10 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="absolute bottom-0 left-0 m-2">
+    <a href="https://github.com/merklejerk/eco-wallets">https://github.com/merklejerk/eco-wallets</a>
+  </div>
   </div>
 </template>
 
